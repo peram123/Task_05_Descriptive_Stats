@@ -63,11 +63,7 @@ This Task-05 analyzes SU Women’s Lacrosse statistics from 2020 to 2025 using d
 Sensitive files are ignored via `.gitignore`:
 ```gitignore
 
-
 ```
-
-
----
 
 # 📊 Detailed Summary & Insights (2020–2025)
 
@@ -168,13 +164,7 @@ This report summarizes player performance from SU Women’s Lacrosse across six 
 - Validated via Python code against ground truth.
 - ✅ = Match, ❌ = Incorrect year/column/logic
 
----
 
-
-```
-
-
-```
 ## Author
 
 Lakshmi Peram\
