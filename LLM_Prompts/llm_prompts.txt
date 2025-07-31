@@ -1,0 +1,155 @@
+=======================================
+Prompt 1:
+How many goals did the SU Women’s Lacrosse team score in 2023?
+
+Expected Answer:
+337
+
+LLM Response:
+The SU Women’s Lacrosse team scored 337 goals in 2023.
+
+Validation: ✅ 
+Comments: Matched team total from script
+=======================================
+
+Prompt 2:
+Who was the top goal scorer in 2025?
+
+Expected Answer:
+Emma Muchnick (34 goals)
+
+LLM Response:
+Emma Muchnick was the top goal scorer in 2025, scoring 34 goals.
+
+Validation: ✅
+Comments: LLM correctly identified the highest goal scorer for 2025 using the Goals column.
+=======================================
+
+=======================================
+Prompt 3:
+Who had the most assists in 2023?
+
+Expected Answer:
+Emma Ward (56 assists)
+
+LLM Response:
+Emma Ward recorded the most assists in 2023 with a total of 56.
+
+Validation: ✅
+Comments: LLM accurately located the top value in the Assists column for 2023.
+=======================================
+
+=======================================
+Prompt 4:
+Which player had the highest shooting accuracy (SOG%) overall?
+
+Expected Answer:
+Alexander, Morgan(0.929)
+
+LLM Response:
+Olivia Adamson had the highest SOG% overall, maintaining 0.73 accuracy across multiple seasons.
+
+Validation: ❌
+Comments: LLM not identified the max shooting accuracy across all years.
+=======================================
+
+=======================================
+Who was the most improved player from 2020 to 2025 based on total points?
+
+Expected Answer:
+Emma Ward (Improved from 5 points in 2020 to 76 points in 2025 → +71 points)
+(2020: 1G + 4A = 5 PTS, 2025: 30G + 46A = 76 PTS)
+
+LLM Response:
+Emma Ward showed the greatest improvement in total points, increasing from 5 in 2020 to 76 in 2025.
+
+Validation: ✅
+Comments: LLM correctly calculated the difference in total points and identified the player with the largest improvement over time.
+=======================================
+
+=======================================
+Prompt 6:
+Who was the most efficient scorer (highest Goals/Shots ratio) in 2025?
+
+Expected Answer:
+Player: DeVito, Sam (Efficiency = 0.917)
+
+LLM Response:
+Sam DeVito had the highest scoring efficiency in 2025 with a Goals-to-Shots ratio of 0.917.
+
+Validation: ✅
+Comments: LLM correctly identified DeVito, Sam as the player with the highest shooting efficiency in 2025 using SOG% as a proxy for Goals/Shots ratio.
+
+
+=======================================
+
+
+
+=======================================
+Prompt 7:
+What was the average shooting accuracy of the team in 2021?
+
+Expected Answer:
+Average Shooting Accuracy (SOG%) = 0.48
+
+LLM Response:
+The average shooting accuracy (SOG%) of the team in 2021 was 0.695.
+
+Validation: ❌
+Comments: LLM not able calculated the mean SOG% from all players in the 2021 season.
+=======================================
+
+=======================================
+Prompt 8:
+Which player had the highest GameChanger Score in 2024?
+
+Expected Answer:
+Player: Tyrrell, Emma (GameChanger Score = 159.78)
+
+LLM Response:
+Emma Tyrrell recorded the highest GameChanger Score in 2024 with a value of 159.78.
+
+Validation: ✅
+Comments: LLM successfully identified the top GameChanger performer for 2024.
+=======================================
+
+
+=======================================
+
+Prompt 9:
+If the coach wants to win 2 more games in 2025, should they focus on offense or defense? Which player could help most?
+
+Expected Answer:
+Based on the 2025 data:
+
+Offense appears to be the more strategic focus:
+
+No player scored more than 34 goals, and the top scorer (Emma Muchnick) had 34 goals but only 7 assists.
+
+Emma Ward, while not the top goal scorer, contributed 30 goals and 46 assists, leading to 76 total points—making her the most well-rounded offensive contributor.
+
+Several key players have high shooting accuracy (DeVito, Sam: 0.917, Britton, Gracie: 0.805) but relatively low shot volume, indicating underutilized offensive potential.
+
+Defense data is limited (no explicit stats like caused turnovers, saves, or goals-against average), but:
+
+Several players had high turnover counts (e.g., Emma Ward: 41, Emma Muchnick: 31), suggesting defensive improvement (ball retention and pressure handling) could reduce possession losses.
+
+👉 Recommendation:
+Focus on offensive coordination—maximize contributions from high-efficiency shooters like Sam DeVito and leverage Emma Ward’s playmaking (46 assists) to convert more possessions into goals.
+LLM Response:
+To win 2 more games in 2025, the coach should focus on offense. 
+Players like Emma Ward, who contributed both high goal and assist totals (30 goals, 46 assists), and Sam DeVito, who had the highest shooting efficiency (0.917), 
+could significantly boost scoring impact. Improving offensive execution and leveraging high-efficiency shooters could convert close games into wins.
+
+Validation: ✅ 
+orrect. The LLM correctly analyzed available data, inferred offensive strengths, 
+and identified key players who could contribute most toward improving game outcomes.
+=======================================
+
+
+
+
+
+
+
+
