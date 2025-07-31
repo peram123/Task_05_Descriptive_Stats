@@ -1,0 +1,21 @@
+# Ignore all CSV files
+all_years_combined_player_stats.csv
+player_summary_snippet.csv
+xml_data/player_stats_2020_from_html.csv
+xml_data/player_stats_2021_from_html.csv
+xml_data/player_stats_2022_from_html.csv
+xml_data/player_stats_2023_from_html.csv
+xml_data/player_stats_2024_from_html.csv
+xml_data/player_stats_2025_from_html.csv
+
+# Ignore all XML files
+xml_data/2020.xml
+xml_data/2021.xml
+xml_data/2022.xml
+xml_data/2023.xml
+xml_data/2024.xml
+xml_data/2025.xml
+
+# Ignore specific notebooks
+notebook.ipynb
+notebook2.ipynb

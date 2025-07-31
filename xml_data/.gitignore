@@ -1,9 +1,0 @@
-# Ignore all CSV files
-*.csv
-
-# Ignore all XML files
-*.xml
-
-# Ignore specific notebooks
-notebook.ipynb
-notebook2.ipynb
